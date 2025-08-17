@@ -1,0 +1,224 @@
+ @font-face { font-family: RomanticSignature; src: url('fonts/RomanticSignature-Script.otf'); }
+
+ *{
+    margin:0;
+    font-family: "RomanticSignature", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+  font-weight: 500;
+}
+
+h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: -10px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  margin-top: -10px;
+}
+
+body {
+  background-color: #EEE2F8;
+}
+
+.principal{
+  border: 20px;
+  box-shadow:
+  0 0 0 20px #EBA432,
+  0 0 0 37px #EEE2F8,
+  0 0 0 40px #EBA432;
+  display: block;
+  margin: auto;
+  width: 65%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
+  margin-top: 50px;
+}
+
+#invitacion {
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+
+#invitacion .top {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 65px;
+    margin-right: 65px;
+    font-weight: 300;
+    position: relative;
+    top: 30px;
+    line-height: 1.3;
+}
+
+#invitacion .bottom {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 65px;
+    margin-right: 65px;
+    font-weight: 300;
+    margin-top: 10px;
+    line-height: 1.3;
+}
+
+#invitacion img {
+  display: block;
+  margin: auto;
+  width: 100%; /* Makes the image take up 100% of its parent's width */
+  height: 220px;
+  object-fit: cover;
+  object-position: top;
+  transform: rotateY(180deg);
+}
+
+#losdetalles {
+    background-color: #DDE8E5;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#losdetalles fieldset {
+  border: 2px solid #000; /* Customize your border style */
+  padding: 10px; /* Adjust padding as needed */
+  margin-left: 30px; /* Adjust margin as needed */
+  margin-right: 30px; /* Adjust margin as needed */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#losdetalles fieldset legend {
+  padding: 0 10px; /* Add padding around the text within the legend */
+  color: #000; /* Optional: Set text color */
+  text-align: left;
+  font-size: 25px;
+}
+
+#losdetalles fieldset p {
+  font-size: 20px;
+}
+
+#losdetalles fieldset #direccion {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+#losdetalles fieldset #cuenta {
+  font-size: 15px;
+  text-align: right;
+
+}
+
+#losdetalles fieldset button{
+   background-color: #B6CEC7;
+   margin-top: 10px;
+   border-radius: 0;
+   
+}
+
+#losdetalles img {
+  width: 100%; /* Makes the image take up 100% of its parent's width */
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#itinerario {
+  background-color: #EEE2F8;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+#itinerario h2 {
+  padding-top: 50px;
+}
+
+.itinerario {
+  background-color: #FFAC99;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 30px;
+  box-shadow:
+  0 0 0 20px #EEE2F8,
+  0 0 0 24px #FFAC99;
+}
+
+.grid-container {
+  display: grid;
+  margin-top: 30px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(5, auto);
+  background-color: #FFAC99;
+  align-items: center;
+}
+
+.grid-item {
+  background-color: #FFAC99;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.grid-item img {
+  display: block;
+  margin-left: auto;
+  width: 150px; /* Makes the image take up 100% of its parent's width */
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+}
+
+#asistencia {
+  background-color: #FDD3C9;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.container img {
+  width: 100%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
+  margin-top: -50px;
+  margin-bottom: -50px;
+}
+
+.centered {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -55%);
+}
+
+.centered button{
+  margin-top: 10px;
+  border-radius: 0;
+}
+
+#final {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#final p {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: -50px;
+  font-weight: 300;
+}
+
+#final img {
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  width: 100%; /* Makes the image take up 100% of its parent's width */
+  height: auto;
+  transform: rotateY(180deg);
+}
